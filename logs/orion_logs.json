@@ -3,5 +3,11 @@
     "timestamp": "2026-01-12T12:41:11.058901+00:00",
     "evento": "ORION inicializado com CORE do ORACULUM",
     "tipo": "sistema"
+  },
+  {
+    "timestamp": "2026-01-12T13:38:42.321Z",
+    "tipo": "editor",
+    "mensagem": "CORE atualizado via editor visual",
+    "fase": "Organização"
   }
 ]
