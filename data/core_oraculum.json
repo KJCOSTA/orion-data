@@ -1,27 +1,150 @@
 {
   "projeto": "ORACULUM",
-  "governado_por": "ORION",
-  "versao_core": "1.1",
-  "ultima_atualizacao": "2026-01-12T16:16:58.658321Z",
+  "sistema_governanca": "ORION",
+  "versao_core": "1.0.0",
+  "status": "EM_REVISAO",
+  "fonte": "PDF — Visão 360° do Projeto ORACULUM",
+  "ultima_atualizacao": "2026-01-12T17:44:45.044372+00:00",
   "fases": [
     {
-      "id": "F1",
       "ordem": 1,
-      "nome": "Organização",
+      "nome": "ORGANIZAÇÃO",
+      "status": "ATUAL",
       "objetivo": "Ter domínio total do que existe, sem decidir nada ainda.",
-      "status": "ativa",
-      "resultado_esperado": "Sabemos exatamente tudo o que temos nas mãos.",
+      "resultado": "Sabemos exatamente tudo o que temos nas mãos.",
       "subfases": [
         {
-          "id": "1.1",
-          "ordem": 1,
+          "codigo": "1.1",
           "nome": "Inventário",
-          "status": "em_andamento",
           "itens": [
             "Mapear tudo (Drive, PC, Opal, Gemini, Make, históricos)",
             "Registrar metadados, datas e versões",
             "Nada é excluído",
             "Nada é aprovado"
+          ]
+        },
+        {
+          "codigo": "1.2",
+          "nome": "Consolidação",
+          "itens": [
+            "Agrupar por tipo: blueprints",
+            "Dashboards",
+            "Documentos",
+            "Estratégias",
+            "Experimentos",
+            "Identificar duplicados",
+            "Identificar variações"
+          ]
+        },
+        {
+          "codigo": "1.3",
+          "nome": "Classificação Semântica",
+          "itens": [
+            "Experimento",
+            "Tentativa",
+            "Rascunho",
+            "Quase-final",
+            "Referência técnica",
+            "Sem decisões nesta fase"
+          ]
+        },
+        {
+          "codigo": "1.4",
+          "nome": "Organização Física",
+          "itens": [
+            "Pastas organizadas",
+            "Padrão de nomes",
+            "Zona de quarentena",
+            "Histórico preservado"
+          ]
+        }
+      ]
+    },
+    {
+      "ordem": 2,
+      "nome": "LEITURA + SÍNTESE INTELIGENTE",
+      "status": "BLOQUEADA",
+      "objetivo": "Entender o que existe, sem executar.",
+      "resultado": "Clareza estratégica e técnica.",
+      "subfases": [
+        {
+          "codigo": "2.1",
+          "nome": "Leitura Assistida por IA",
+          "itens": [
+            "Leitura por lotes",
+            "Leitura por pastas",
+            "Sem estourar contexto",
+            "Geração de resumos"
+          ]
+        },
+        {
+          "codigo": "2.2",
+          "nome": "Extração de Capacidades",
+          "itens": [
+            "O que cada coisa permite fazer",
+            "Que problemas tentava resolver",
+            "Que recursos técnicos existem"
+          ]
+        },
+        {
+          "codigo": "2.3",
+          "nome": "Detecção de Padrões",
+          "itens": [
+            "Ideias recorrentes",
+            "Tentativas repetidas",
+            "Gaps não explorados",
+            "O que nunca foi tentado"
+          ]
+        }
+      ]
+    },
+    {
+      "ordem": 3,
+      "nome": "SÍNTESE DECISÓRIA (CORE)",
+      "status": "BLOQUEADA",
+      "objetivo": "Decidir conscientemente.",
+      "resultado": "Plano único, aprovado e coerente.",
+      "subfases": [
+        {
+          "codigo": "3.1",
+          "nome": "Definição do CORE",
+          "itens": [
+            "Decisões aprovadas",
+            "Tecnologias escolhidas",
+            "Escopo validado",
+            "O que entra e o que fica fora"
+          ]
+        },
+        {
+          "codigo": "3.2",
+          "nome": "Plano Perfeito",
+          "itens": [
+            "Arquitetura final",
+            "Tecnologias novas ou existentes",
+            "Fluxos",
+            "Integrações",
+            "Roadmap"
+          ]
+        }
+      ]
+    },
+    {
+      "ordem": 4,
+      "nome": "EXECUÇÃO DO PLANO",
+      "status": "BLOQUEADA",
+      "objetivo": "Construir exatamente o que foi aprovado.",
+      "resultado": "Sistema em produção e monitorado.",
+      "subfases": [
+        {
+          "codigo": "4.1",
+          "nome": "Execução Técnica",
+          "itens": [
+            "Configuração Make",
+            "APIs",
+            "Dashboards",
+            "Automações",
+            "Monitoramento",
+            "Evolução contínua"
           ]
         }
       ]
