@@ -1,0 +1,92 @@
+{
+  "projeto": "ORACULUM",
+  "descricao": "Projeto governado pelo ORION, desde organização até execução e monitoramento.",
+  "versao_core": "1.0",
+  "ultima_atualizacao": "2026-01-12T12:41:11.045805+00:00",
+  "fases": [
+    {
+      "id": "fase_1",
+      "nome": "Organização",
+      "status": "ativa",
+      "objetivo": "Domínio total do que existe, sem decisões.",
+      "subfases": [
+        {
+          "id": "1.1",
+          "nome": "Inventário",
+          "descricao": "Mapear tudo: Drive, PC, IA, históricos."
+        },
+        {
+          "id": "1.2",
+          "nome": "Consolidação",
+          "descricao": "Agrupar por tipo e identificar duplicados."
+        },
+        {
+          "id": "1.3",
+          "nome": "Classificação Semântica",
+          "descricao": "Classificar sem decidir."
+        },
+        {
+          "id": "1.4",
+          "nome": "Organização Física",
+          "descricao": "Pastas, nomes, quarentena."
+        }
+      ],
+      "resultado": "Tudo mapeado e conhecido."
+    },
+    {
+      "id": "fase_2",
+      "nome": "Leitura e Síntese Inteligente",
+      "status": "pendente",
+      "objetivo": "Entender profundamente o material.",
+      "subfases": [
+        {
+          "id": "2.1",
+          "nome": "Leitura Assistida por IA"
+        },
+        {
+          "id": "2.2",
+          "nome": "Extração de Capacidades"
+        },
+        {
+          "id": "2.3",
+          "nome": "Detecção de Padrões"
+        }
+      ],
+      "resultado": "Clareza estratégica."
+    },
+    {
+      "id": "fase_3",
+      "nome": "Síntese Decisória (CORE)",
+      "status": "bloqueada",
+      "objetivo": "Definir decisões finais.",
+      "subfases": [
+        {
+          "id": "3.1",
+          "nome": "Definição do CORE"
+        },
+        {
+          "id": "3.2",
+          "nome": "Plano Perfeito"
+        }
+      ],
+      "resultado": "Plano único aprovado."
+    },
+    {
+      "id": "fase_4",
+      "nome": "Execução do Plano",
+      "status": "bloqueada",
+      "objetivo": "Executar conforme aprovado.",
+      "subfases": [
+        {
+          "id": "4.1",
+          "nome": "Implementação Técnica"
+        },
+        {
+          "id": "4.2",
+          "nome": "Monitoramento"
+        }
+      ],
+      "resultado": "Projeto em produção."
+    }
+  ]
+}
