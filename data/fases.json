@@ -1,50 +1,19 @@
 [
   {
-    "id": 1,
-    "nome": "Organização",
+    "fase": "Organização",
     "status": "ativa",
-    "checklist": [
-      "Inventário Drive",
-      "Inventário PC",
-      "Mapeamento de logs"
-    ],
-    "bloqueios": [],
-    "dependencias": []
+    "progresso": 15
   },
   {
-    "id": 2,
-    "nome": "Leitura & Síntese",
-    "status": "pendente",
-    "checklist": [],
-    "bloqueios": [
-      "Organização incompleta"
-    ],
-    "dependencias": [
-      "Organização"
-    ]
+    "fase": "Leitura & Síntese",
+    "status": "pendente"
   },
   {
-    "id": 3,
-    "nome": "CORE",
-    "status": "bloqueada",
-    "checklist": [],
-    "bloqueios": [
-      "Síntese não concluída"
-    ],
-    "dependencias": [
-      "Leitura & Síntese"
-    ]
+    "fase": "CORE",
+    "status": "bloqueada"
   },
   {
-    "id": 4,
-    "nome": "Execução",
-    "status": "bloqueada",
-    "checklist": [],
-    "bloqueios": [
-      "CORE não definido"
-    ],
-    "dependencias": [
-      "CORE"
-    ]
+    "fase": "Execução",
+    "status": "bloqueada"
   }
 ]
