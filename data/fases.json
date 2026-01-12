@@ -1,19 +1,27 @@
 [
   {
-    "fase": "Organização",
+    "id": 1,
+    "nome": "Organização",
     "status": "ativa",
-    "progresso": 15
+    "progresso": 15,
+    "descricao": "Mapeamento, inventário e consolidação total"
   },
   {
-    "fase": "Leitura & Síntese",
-    "status": "pendente"
+    "id": 2,
+    "nome": "Leitura & Síntese",
+    "status": "pendente",
+    "progresso": 0
   },
   {
-    "fase": "CORE",
-    "status": "bloqueada"
+    "id": 3,
+    "nome": "CORE",
+    "status": "bloqueada",
+    "progresso": 0
   },
   {
-    "fase": "Execução",
-    "status": "bloqueada"
+    "id": 4,
+    "nome": "Execução",
+    "status": "bloqueada",
+    "progresso": 0
   }
 ]
