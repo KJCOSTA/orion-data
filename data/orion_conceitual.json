@@ -1,0 +1,18 @@
+{
+  "sistema": "ORION",
+  "definicao": "Sistema de governança estratégica para projetos complexos.",
+  "principios": [
+    "Não executa tarefas operacionais",
+    "Governa decisões e fases",
+    "Mantém memória estratégica",
+    "Reflete o CORE do projeto"
+  ],
+  "modulos": [
+    "Visão Geral",
+    "Mapa do Projeto",
+    "Linha do Tempo",
+    "Decisões",
+    "Riscos e Alertas",
+    "Memória Estratégica"
+  ]
+}
