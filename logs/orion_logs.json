@@ -1,8 +1,7 @@
 [
   {
-    "timestamp": "2026-01-12T11:07:28.679000+00:00",
-    "tipo": "sistema",
-    "mensagem": "Base canônica do ORION criada",
+    "timestamp": "2026-01-12T10:45:49.100481+00:00",
+    "evento": "Inicialização oficial do ORION",
     "fase": "Organização"
   }
 ]
